@@ -1,0 +1,23 @@
+class Main{
+	function void main(){
+		do Screen.drawLine( x + -3, y + -4, x + -3, y + -4);
+		do Screen.drawLine( x + 3, y + -4, x + 3, y + -4);
+		do Screen.drawLine( x + -2, y + -3, x + -2, y + -3);
+		do Screen.drawLine( x + 2, y + -3, x + 2, y + -3);
+		do Screen.drawLine( x + -3, y + -2, x + 3, y + -2);
+		do Screen.drawLine( x + -4, y + -1, x + -3, y + -1);
+		do Screen.drawLine( x + -1, y + -1, x + 1, y + -1);
+		do Screen.drawLine( x + 3, y + -1, x + 4, y + -1);
+		do Screen.drawLine( x + -5, y + 0, x + 5, y + 0);
+		do Screen.drawLine( x + -5, y + 1, x + -5, y + 1);
+		do Screen.drawLine( x + -3, y + 1, x + 3, y + 1);
+		do Screen.drawLine( x + 5, y + 1, x + 5, y + 1);
+		do Screen.drawLine( x + -5, y + 2, x + -5, y + 2);
+		do Screen.drawLine( x + -3, y + 2, x + -3, y + 2);
+		do Screen.drawLine( x + 3, y + 2, x + 3, y + 2);
+		do Screen.drawLine( x + 5, y + 2, x + 5, y + 2);
+		do Screen.drawLine( x + -2, y + 3, x + -1, y + 3);
+		do Screen.drawLine( x + 1, y + 3, x + 2, y + 3);
+		return;
+	}
+}

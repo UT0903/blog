@@ -1,0 +1,33 @@
+Reading input file "input.txt"...
+Plotting not support!
+id=1, row=5
+Plotting not support!
+id=2, row=7
+Plotting not support!
+id=3, row=8
+id=4, row=2
+Plotting not support!
+id=5, row=9
+Plotting not support!
+id=6, row=6
+id=7, row=3
+Plotting not support!
+id=8, row=11
+Plotting not support!
+id=9, row=4
+Plotting not support!
+id=10, row=10
+Writing output file "output.matlab.txt"...
+
+ans =
+
+  1กั10 <a href="matlab:helpPopup cell" style="font-weight:bold">cell</a> array
+
+  Columns 1 through 9
+
+    {6กั1 double}    {8กั1 double}    {9กั1 double}    {3กั1 double}    {10กั1 double}    {7กั1 double}    {4กั1 double}    {12กั1 double}    {5กั1 double}
+
+  Column 10
+
+    {11กั1 double}
+

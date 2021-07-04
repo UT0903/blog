@@ -1,0 +1,40 @@
+addAndMax.py:
+    python sample code, get the input from online judge
+    addAndMax(A, B):
+        write your python code here
+        A, B:
+            two-dimension python lists
+            datatype = int
+            two-dimension lists size are between 1x1 and 20x20 
+        return:
+            max element value in new matrix, ex. 995.0
+            must return number with one decimal place, ex. X.0
+
+    main():
+        load input matrix from comandline
+        for loop:
+            range(20) the parameter '20' means how many pair of AB matrices it reads
+            you can change the number to 1 to read only one pair of AB matrices
+           *>>>but you must change it to 20 when upload to judge system<<<
+
+student.m:
+    Matlab sample code, almost same as addAndMax.py
+
+input format:
+    3 2: row column for the first matrix A
+    2 3 1 5 4 6: matrix elements in A
+    2 4: row column for the second matrix B
+    1 2 3 7 5 4 2 3: matrix elements in B
+
+    into
+    A = [[2, 3], [1, 5], [4, 6]]
+    B = [[1, 2, 3, 7], [5, 4, 2, 3]]
+
+    and should return 9.0
+
+local test:
+    you can type this code in terminal to test your code
+    python addAndMax.py < input
+
+It is recommended not to copy sample code to Judge system directly.
+Please upload as a python file, or the space may cause error.

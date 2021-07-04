@@ -1,0 +1,3 @@
+scp hw3.c b07902048@linux10.csie.org:~/SP/hw3/
+scp scheduler.* b07902048@linux10.csie.org:~/SP/hw3
+scp main.c b07902048@linux10.csie.org:~/SP/hw3

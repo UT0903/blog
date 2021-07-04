@@ -1,0 +1,32 @@
+title: UT's blog| 個人部落格
+description: 於112資工系大三生活中苟延殘喘，開學不務正業開始經營自己的Blog # this means to ignore newlines until "baseurl:"
+permalink: ':title/'
+baseurl: "/blog" # the subpath of your site, e.g. /blog
+url: "" # the base hostname & protocol for your site, e.g. http://example.com
+site-twitter: #if your site has a twitter account, enter it here
+
+# Author Settings
+author: Anthony Li # add your name
+author-img: author-img.jpg # add your photo
+about-author: Major in Computer Science, will occasionally writes some posts about my life. # add description
+social-instagram: youting_li # add your IG handle
+social-facebook: profile.php?id=100000599048771 # add your Facebook handle
+social-github: UT0903 # add your Github handle
+
+# Disqus
+discus-identifier: ut0903-github-io # add your discus identifier
+
+# Tracker
+analytics: UA-161795841-2 # Google Analytics
+
+# Build Settings
+markdown: kramdown
+plugins:
+  - jekyll-sitemap
+  - jekyll-paginate
+  - jemoji
+
+paginate: 8
+paginate_path: "/page/:num"
+
+exclude: ["node_modules", "gulpfile.js", "package.json", "yarn.lock"]

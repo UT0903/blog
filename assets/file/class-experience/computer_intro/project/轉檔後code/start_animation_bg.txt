@@ -1,0 +1,1822 @@
+class Main{
+	function void main(){
+	var int x;
+	let x = 0;
+	do Screen.setColor(false);
+	if(x + 76 < 0){
+		do Screen.drawLine(0, 102, x + 97, 102);
+	}
+	else{
+		do Screen.drawLine( x + 76, 102, x + 97, 102);
+	}
+	if(x + 77 < 0){
+		do Screen.drawRectangle(0, 103, x + 104, 104);
+	}
+	else{
+		do Screen.drawRectangle(x + 77, 103, x + 104, 104);
+	}
+		do Screen.drawPixel(38, 105);
+	if(x + 80 < 0){
+		do Screen.drawLine(0, 105, x + 108, 105);
+	}
+	else{
+		do Screen.drawLine( x + 80, 105, x + 108, 105);
+	}
+	if(x + 31 < 0){
+		do Screen.drawRectangle(0, 106, x + 44, 107);
+	}
+	else{
+		do Screen.drawRectangle(x + 31, 106, x + 44, 107);
+	}
+	if(x + 81 < 0){
+		do Screen.drawRectangle(0, 106, x + 112, 107);
+	}
+	else{
+		do Screen.drawRectangle(x + 81, 106, x + 112, 107);
+	}
+	if(x + 28 < 0){
+		do Screen.drawLine(0, 108, x + 43, 108);
+	}
+	else{
+		do Screen.drawLine( x + 28, 108, x + 43, 108);
+	}
+	if(x + 85 < 0){
+		do Screen.drawLine(0, 108, x + 116, 108);
+	}
+	else{
+		do Screen.drawLine( x + 85, 108, x + 116, 108);
+	}
+	if(x + 28 < 0){
+		do Screen.drawLine(0, 109, x + 40, 109);
+	}
+	else{
+		do Screen.drawLine( x + 28, 109, x + 40, 109);
+	}
+	if(x + 85 < 0){
+		do Screen.drawLine(0, 109, x + 119, 109);
+	}
+	else{
+		do Screen.drawLine( x + 85, 109, x + 119, 109);
+	}
+	if(x + 30 < 0){
+		do Screen.drawRectangle(0, 110, x + 37, 111);
+	}
+	else{
+		do Screen.drawRectangle(x + 30, 110, x + 37, 111);
+	}
+	if(x + 87 < 0){
+		do Screen.drawRectangle(0, 110, x + 122, 111);
+	}
+	else{
+		do Screen.drawRectangle(x + 87, 110, x + 122, 111);
+	}
+		do Screen.drawPixel(33, 112);
+	if(x + 88 < 0){
+		do Screen.drawLine(0, 112, x + 125, 112);
+	}
+	else{
+		do Screen.drawLine( x + 88, 112, x + 125, 112);
+	}
+	if(x + 90 < 0){
+		do Screen.drawRectangle(0, 113, x + 128, 114);
+	}
+	else{
+		do Screen.drawRectangle(x + 90, 113, x + 128, 114);
+	}
+	if(x + 92 < 0){
+		do Screen.drawLine(0, 115, x + 129, 115);
+	}
+	else{
+		do Screen.drawLine( x + 92, 115, x + 129, 115);
+	}
+	if(x + 14 < 0){
+		do Screen.drawLine(0, 116, x + 15, 116);
+	}
+	else{
+		do Screen.drawLine( x + 14, 116, x + 15, 116);
+	}
+	if(x + 94 < 0){
+		do Screen.drawLine(0, 116, x + 132, 116);
+	}
+	else{
+		do Screen.drawLine( x + 94, 116, x + 132, 116);
+	}
+	if(x + 13 < 0){
+		do Screen.drawRectangle(0, 117, x + 15, 118);
+	}
+	else{
+		do Screen.drawRectangle(x + 13, 117, x + 15, 118);
+	}
+	if(x + 97 < 0){
+		do Screen.drawRectangle(0, 117, x + 133, 118);
+	}
+	else{
+		do Screen.drawRectangle(x + 97, 117, x + 133, 118);
+	}
+	if(x + 9 < 0){
+		do Screen.drawLine(0, 119, x + 13, 119);
+	}
+	else{
+		do Screen.drawLine( x + 9, 119, x + 13, 119);
+	}
+	if(x + 102 < 0){
+		do Screen.drawLine(0, 119, x + 136, 119);
+	}
+	else{
+		do Screen.drawLine( x + 102, 119, x + 136, 119);
+	}
+	if(x + 7 < 0){
+		do Screen.drawRectangle(0, 120, x + 11, 121);
+	}
+	else{
+		do Screen.drawRectangle(x + 7, 120, x + 11, 121);
+	}
+	if(x + 108 < 0){
+		do Screen.drawRectangle(0, 120, x + 137, 121);
+	}
+	else{
+		do Screen.drawRectangle(x + 108, 120, x + 137, 121);
+	}
+	if(x + 5 < 0){
+		do Screen.drawLine(0, 122, x + 9, 122);
+	}
+	else{
+		do Screen.drawLine( x + 5, 122, x + 9, 122);
+	}
+	if(x + 62 < 0){
+		do Screen.drawLine(0, 122, x + 65, 122);
+	}
+	else{
+		do Screen.drawLine( x + 62, 122, x + 65, 122);
+	}
+	if(x + 112 < 0){
+		do Screen.drawLine(0, 122, x + 137, 122);
+	}
+	else{
+		do Screen.drawLine( x + 112, 122, x + 137, 122);
+	}
+	if(x + 3 < 0){
+		do Screen.drawLine(0, 123, x + 8, 123);
+	}
+	else{
+		do Screen.drawLine( x + 3, 123, x + 8, 123);
+	}
+	if(x + 56 < 0){
+		do Screen.drawLine(0, 123, x + 68, 123);
+	}
+	else{
+		do Screen.drawLine( x + 56, 123, x + 68, 123);
+	}
+	if(x + 117 < 0){
+		do Screen.drawLine(0, 123, x + 139, 123);
+	}
+	else{
+		do Screen.drawLine( x + 117, 123, x + 139, 123);
+	}
+	if(x + 2 < 0){
+		do Screen.drawRectangle(0, 124, x + 6, 125);
+	}
+	else{
+		do Screen.drawRectangle(x + 2, 124, x + 6, 125);
+	}
+	if(x + 56 < 0){
+		do Screen.drawRectangle(0, 124, x + 73, 125);
+	}
+	else{
+		do Screen.drawRectangle(x + 56, 124, x + 73, 125);
+	}
+	if(x + 122 < 0){
+		do Screen.drawRectangle(0, 124, x + 133, 125);
+	}
+	else{
+		do Screen.drawRectangle(x + 122, 124, x + 133, 125);
+	}
+	if(x + 0 < 0){
+		do Screen.drawLine(0, 126, x + 5, 126);
+	}
+	else{
+		do Screen.drawLine( x + 0, 126, x + 5, 126);
+	}
+	if(x + 53 < 0){
+		do Screen.drawLine(0, 126, x + 77, 126);
+	}
+	else{
+		do Screen.drawLine( x + 53, 126, x + 77, 126);
+	}
+	if(x + 124 < 0){
+		do Screen.drawLine(0, 126, x + 133, 126);
+	}
+	else{
+		do Screen.drawLine( x + 124, 126, x + 133, 126);
+	}
+	if(x + 0 < 0){
+		do Screen.drawLine(0, 127, x + 2, 127);
+	}
+	else{
+		do Screen.drawLine( x + 0, 127, x + 2, 127);
+	}
+	if(x + 49 < 0){
+		do Screen.drawLine(0, 127, x + 83, 127);
+	}
+	else{
+		do Screen.drawLine( x + 49, 127, x + 83, 127);
+	}
+	if(x + 127 < 0){
+		do Screen.drawLine(0, 127, x + 132, 127);
+	}
+	else{
+		do Screen.drawLine( x + 127, 127, x + 132, 127);
+	}
+	if(x + 48 < 0){
+		do Screen.drawRectangle(0, 128, x + 75, 129);
+	}
+	else{
+		do Screen.drawRectangle(x + 48, 128, x + 75, 129);
+	}
+	if(x + 45 < 0){
+		do Screen.drawLine(0, 130, x + 76, 130);
+	}
+	else{
+		do Screen.drawLine( x + 45, 130, x + 76, 130);
+	}
+	if(x + 120 < 0){
+		do Screen.drawLine(0, 130, x + 125, 130);
+	}
+	else{
+		do Screen.drawLine( x + 120, 130, x + 125, 130);
+	}
+	if(x + 42 < 0){
+		do Screen.drawRectangle(0, 131, x + 71, 133);
+	}
+	else{
+		do Screen.drawRectangle(x + 42, 131, x + 71, 133);
+	}
+	if(x + 120 < 0){
+		do Screen.drawRectangle(0, 131, x + 129, 132);
+	}
+	else{
+		do Screen.drawRectangle(x + 120, 131, x + 129, 132);
+	}
+	if(x + 140 < 0){
+		do Screen.drawRectangle(0, 131, x + 147, 132);
+	}
+	else{
+		do Screen.drawRectangle(x + 140, 131, x + 147, 132);
+	}
+	if(x + 120 < 0){
+		do Screen.drawLine(0, 133, x + 132, 133);
+	}
+	else{
+		do Screen.drawLine( x + 120, 133, x + 132, 133);
+	}
+	if(x + 140 < 0){
+		do Screen.drawLine(0, 133, x + 150, 133);
+	}
+	else{
+		do Screen.drawLine( x + 140, 133, x + 150, 133);
+	}
+	if(x + 49 < 0){
+		do Screen.drawLine(0, 134, x + 51, 134);
+	}
+	else{
+		do Screen.drawLine( x + 49, 134, x + 51, 134);
+	}
+	if(x + 62 < 0){
+		do Screen.drawLine(0, 134, x + 71, 134);
+	}
+	else{
+		do Screen.drawLine( x + 62, 134, x + 71, 134);
+	}
+	if(x + 119 < 0){
+		do Screen.drawLine(0, 134, x + 135, 134);
+	}
+	else{
+		do Screen.drawLine( x + 119, 134, x + 135, 134);
+	}
+	if(x + 140 < 0){
+		do Screen.drawLine(0, 134, x + 153, 134);
+	}
+	else{
+		do Screen.drawLine( x + 140, 134, x + 153, 134);
+	}
+	if(x + 59 < 0){
+		do Screen.drawRectangle(0, 135, x + 71, 136);
+	}
+	else{
+		do Screen.drawRectangle(x + 59, 135, x + 71, 136);
+	}
+	if(x + 119 < 0){
+		do Screen.drawRectangle(0, 135, x + 154, 136);
+	}
+	else{
+		do Screen.drawRectangle(x + 119, 135, x + 154, 136);
+	}
+	if(x + 58 < 0){
+		do Screen.drawLine(0, 137, x + 72, 137);
+	}
+	else{
+		do Screen.drawLine( x + 58, 137, x + 72, 137);
+	}
+	if(x + 117 < 0){
+		do Screen.drawLine(0, 137, x + 154, 137);
+	}
+	else{
+		do Screen.drawLine( x + 117, 137, x + 154, 137);
+	}
+	if(x + 70 < 0){
+		do Screen.drawRectangle(0, 138, x + 71, 139);
+	}
+	else{
+		do Screen.drawRectangle(x + 70, 138, x + 71, 139);
+	}
+	if(x + 116 < 0){
+		do Screen.drawRectangle(0, 138, x + 155, 139);
+	}
+	else{
+		do Screen.drawRectangle(x + 116, 138, x + 155, 139);
+	}
+	if(x + 115 < 0){
+		do Screen.drawLine(0, 140, x + 157, 140);
+	}
+	else{
+		do Screen.drawLine( x + 115, 140, x + 157, 140);
+	}
+	if(x + 113 < 0){
+		do Screen.drawLine(0, 141, x + 158, 141);
+	}
+	else{
+		do Screen.drawLine( x + 113, 141, x + 158, 141);
+	}
+	if(x + 112 < 0){
+		do Screen.drawRectangle(0, 142, x + 160, 143);
+	}
+	else{
+		do Screen.drawRectangle(x + 112, 142, x + 160, 143);
+	}
+	if(x + 111 < 0){
+		do Screen.drawLine(0, 144, x + 161, 144);
+	}
+	else{
+		do Screen.drawLine( x + 111, 144, x + 161, 144);
+	}
+	if(x + 109 < 0){
+		do Screen.drawRectangle(0, 145, x + 161, 146);
+	}
+	else{
+		do Screen.drawRectangle(x + 109, 145, x + 161, 146);
+	}
+	if(x + 109 < 0){
+		do Screen.drawLine(0, 147, x + 162, 147);
+	}
+	else{
+		do Screen.drawLine( x + 109, 147, x + 162, 147);
+	}
+	if(x + 83 < 0){
+		do Screen.drawLine(0, 148, x + 87, 148);
+	}
+	else{
+		do Screen.drawLine( x + 83, 148, x + 87, 148);
+	}
+	if(x + 106 < 0){
+		do Screen.drawRectangle(0, 148, x + 164, 150);
+	}
+	else{
+		do Screen.drawRectangle(x + 106, 148, x + 164, 150);
+	}
+	if(x + 80 < 0){
+		do Screen.drawRectangle(0, 149, x + 94, 151);
+	}
+	else{
+		do Screen.drawRectangle(x + 80, 149, x + 94, 151);
+	}
+	if(x + 74 < 0){
+		do Screen.drawLine(0, 151, x + 76, 151);
+	}
+	else{
+		do Screen.drawLine( x + 74, 151, x + 76, 151);
+	}
+	if(x + 101 < 0){
+		do Screen.drawLine(0, 151, x + 116, 151);
+	}
+	else{
+		do Screen.drawLine( x + 101, 151, x + 116, 151);
+	}
+	if(x + 119 < 0){
+		do Screen.drawLine(0, 151, x + 165, 151);
+	}
+	else{
+		do Screen.drawLine( x + 119, 151, x + 165, 151);
+	}
+	if(x + 74 < 0){
+		do Screen.drawRectangle(0, 152, x + 96, 153);
+	}
+	else{
+		do Screen.drawRectangle(x + 74, 152, x + 96, 153);
+	}
+	if(x + 102 < 0){
+		do Screen.drawLine(0, 152, x + 116, 152);
+	}
+	else{
+		do Screen.drawLine( x + 102, 152, x + 116, 152);
+	}
+	if(x + 122 < 0){
+		do Screen.drawRectangle(0, 152, x + 167, 154);
+	}
+	else{
+		do Screen.drawRectangle(x + 122, 152, x + 167, 154);
+	}
+	if(x + 102 < 0){
+		do Screen.drawLine(0, 153, x + 114, 153);
+	}
+	else{
+		do Screen.drawLine( x + 102, 153, x + 114, 153);
+	}
+	if(x + 0 < 0){
+		do Screen.drawLine(0, 154, x + 1, 154);
+	}
+	else{
+		do Screen.drawLine( x + 0, 154, x + 1, 154);
+	}
+	if(x + 73 < 0){
+		do Screen.drawLine(0, 154, x + 97, 154);
+	}
+	else{
+		do Screen.drawLine( x + 73, 154, x + 97, 154);
+	}
+	if(x + 0 < 0){
+		do Screen.drawLine(0, 155, x + 2, 155);
+	}
+	else{
+		do Screen.drawLine( x + 0, 155, x + 2, 155);
+	}
+	if(x + 70 < 0){
+		do Screen.drawLine(0, 155, x + 97, 155);
+	}
+	else{
+		do Screen.drawLine( x + 70, 155, x + 97, 155);
+	}
+	if(x + 120 < 0){
+		do Screen.drawLine(0, 155, x + 168, 155);
+	}
+	else{
+		do Screen.drawLine( x + 120, 155, x + 168, 155);
+	}
+	if(x + 0 < 0){
+		do Screen.drawRectangle(0, 156, x + 5, 157);
+	}
+	else{
+		do Screen.drawRectangle(x + 0, 156, x + 5, 157);
+	}
+	if(x + 41 < 0){
+		do Screen.drawRectangle(0, 156, x + 43, 157);
+	}
+	else{
+		do Screen.drawRectangle(x + 41, 156, x + 43, 157);
+	}
+	if(x + 65 < 0){
+		do Screen.drawRectangle(0, 156, x + 96, 157);
+	}
+	else{
+		do Screen.drawRectangle(x + 65, 156, x + 96, 157);
+	}
+	if(x + 122 < 0){
+		do Screen.drawRectangle(0, 156, x + 168, 157);
+	}
+	else{
+		do Screen.drawRectangle(x + 122, 156, x + 168, 157);
+	}
+	if(x + 0 < 0){
+		do Screen.drawRectangle(0, 158, x + 9, 159);
+	}
+	else{
+		do Screen.drawRectangle(x + 0, 158, x + 9, 159);
+	}
+	if(x + 39 < 0){
+		do Screen.drawLine(0, 158, x + 44, 158);
+	}
+	else{
+		do Screen.drawLine( x + 39, 158, x + 44, 158);
+	}
+	if(x + 49 < 0){
+		do Screen.drawLine(0, 158, x + 52, 158);
+	}
+	else{
+		do Screen.drawLine( x + 49, 158, x + 52, 158);
+	}
+	if(x + 62 < 0){
+		do Screen.drawLine(0, 158, x + 94, 158);
+	}
+	else{
+		do Screen.drawLine( x + 62, 158, x + 94, 158);
+	}
+	if(x + 123 < 0){
+		do Screen.drawLine(0, 158, x + 169, 158);
+	}
+	else{
+		do Screen.drawLine( x + 123, 158, x + 169, 158);
+	}
+	if(x + 38 < 0){
+		do Screen.drawLine(0, 159, x + 55, 159);
+	}
+	else{
+		do Screen.drawLine( x + 38, 159, x + 55, 159);
+	}
+	if(x + 59 < 0){
+		do Screen.drawLine(0, 159, x + 93, 159);
+	}
+	else{
+		do Screen.drawLine( x + 59, 159, x + 93, 159);
+	}
+	if(x + 123 < 0){
+		do Screen.drawRectangle(0, 159, x + 171, 162);
+	}
+	else{
+		do Screen.drawRectangle(x + 123, 159, x + 171, 162);
+	}
+	if(x + 0 < 0){
+		do Screen.drawRectangle(0, 160, x + 11, 161);
+	}
+	else{
+		do Screen.drawRectangle(x + 0, 160, x + 11, 161);
+	}
+	if(x + 39 < 0){
+		do Screen.drawRectangle(0, 160, x + 93, 161);
+	}
+	else{
+		do Screen.drawRectangle(x + 39, 160, x + 93, 161);
+	}
+	if(x + 0 < 0){
+		do Screen.drawRectangle(0, 162, x + 15, 164);
+	}
+	else{
+		do Screen.drawRectangle(x + 0, 162, x + 15, 164);
+	}
+	if(x + 46 < 0){
+		do Screen.drawLine(0, 162, x + 91, 162);
+	}
+	else{
+		do Screen.drawLine( x + 46, 162, x + 91, 162);
+	}
+	if(x + 51 < 0){
+		do Screen.drawRectangle(0, 163, x + 93, 164);
+	}
+	else{
+		do Screen.drawRectangle(x + 51, 163, x + 93, 164);
+	}
+	if(x + 123 < 0){
+		do Screen.drawRectangle(0, 163, x + 172, 164);
+	}
+	else{
+		do Screen.drawRectangle(x + 123, 163, x + 172, 164);
+	}
+	if(x + 0 < 0){
+		do Screen.drawLine(0, 165, x + 20, 165);
+	}
+	else{
+		do Screen.drawLine( x + 0, 165, x + 20, 165);
+	}
+	if(x + 51 < 0){
+		do Screen.drawLine(0, 165, x + 94, 165);
+	}
+	else{
+		do Screen.drawLine( x + 51, 165, x + 94, 165);
+	}
+	if(x + 123 < 0){
+		do Screen.drawRectangle(0, 165, x + 174, 166);
+	}
+	else{
+		do Screen.drawRectangle(x + 123, 165, x + 174, 166);
+	}
+	if(x + 0 < 0){
+		do Screen.drawLine(0, 166, x + 19, 166);
+	}
+	else{
+		do Screen.drawLine( x + 0, 166, x + 19, 166);
+	}
+	if(x + 51 < 0){
+		do Screen.drawLine(0, 166, x + 96, 166);
+	}
+	else{
+		do Screen.drawLine( x + 51, 166, x + 96, 166);
+	}
+	if(x + 0 < 0){
+		do Screen.drawLine(0, 167, x + 13, 167);
+	}
+	else{
+		do Screen.drawLine( x + 0, 167, x + 13, 167);
+	}
+	if(x + 16 < 0){
+		do Screen.drawRectangle(0, 167, x + 18, 168);
+	}
+	else{
+		do Screen.drawRectangle(x + 16, 167, x + 18, 168);
+	}
+	if(x + 51 < 0){
+		do Screen.drawRectangle(0, 167, x + 94, 168);
+	}
+	else{
+		do Screen.drawRectangle(x + 51, 167, x + 94, 168);
+	}
+	if(x + 124 < 0){
+		do Screen.drawRectangle(0, 167, x + 174, 168);
+	}
+	else{
+		do Screen.drawRectangle(x + 124, 167, x + 174, 168);
+	}
+	if(x + 0 < 0){
+		do Screen.drawLine(0, 168, x + 6, 168);
+	}
+	else{
+		do Screen.drawLine( x + 0, 168, x + 6, 168);
+	}
+	if(x + 9 < 0){
+		do Screen.drawRectangle(0, 168, x + 13, 169);
+	}
+	else{
+		do Screen.drawRectangle(x + 9, 168, x + 13, 169);
+	}
+	if(x + 46 < 0){
+		do Screen.drawLine(0, 168, x + 48, 168);
+	}
+	else{
+		do Screen.drawLine( x + 46, 168, x + 48, 168);
+	}
+	if(x + 0 < 0){
+		do Screen.drawLine(0, 169, x + 2, 169);
+	}
+	else{
+		do Screen.drawLine( x + 0, 169, x + 2, 169);
+	}
+	if(x + 23 < 0){
+		do Screen.drawLine(0, 169, x + 27, 169);
+	}
+	else{
+		do Screen.drawLine( x + 23, 169, x + 27, 169);
+	}
+	if(x + 39 < 0){
+		do Screen.drawLine(0, 169, x + 94, 169);
+	}
+	else{
+		do Screen.drawLine( x + 39, 169, x + 94, 169);
+	}
+	if(x + 127 < 0){
+		do Screen.drawLine(0, 169, x + 133, 169);
+	}
+	else{
+		do Screen.drawLine( x + 127, 169, x + 133, 169);
+	}
+	if(x + 136 < 0){
+		do Screen.drawLine(0, 169, x + 175, 169);
+	}
+	else{
+		do Screen.drawLine( x + 136, 169, x + 175, 169);
+	}
+	if(x + 0 < 0){
+		do Screen.drawRectangle(0, 170, x + 1, 172);
+	}
+	else{
+		do Screen.drawRectangle(x + 0, 170, x + 1, 172);
+	}
+	if(x + 9 < 0){
+		do Screen.drawRectangle(0, 170, x + 11, 171);
+	}
+	else{
+		do Screen.drawRectangle(x + 9, 170, x + 11, 171);
+	}
+	if(x + 20 < 0){
+		do Screen.drawRectangle(0, 170, x + 93, 171);
+	}
+	else{
+		do Screen.drawRectangle(x + 20, 170, x + 93, 171);
+	}
+	if(x + 127 < 0){
+		do Screen.drawRectangle(0, 170, x + 132, 171);
+	}
+	else{
+		do Screen.drawRectangle(x + 127, 170, x + 132, 171);
+	}
+	if(x + 148 < 0){
+		do Screen.drawRectangle(0, 170, x + 174, 171);
+	}
+	else{
+		do Screen.drawRectangle(x + 148, 170, x + 174, 171);
+	}
+	if(x + 20 < 0){
+		do Screen.drawLine(0, 172, x + 91, 172);
+	}
+	else{
+		do Screen.drawLine( x + 20, 172, x + 91, 172);
+	}
+	if(x + 150 < 0){
+		do Screen.drawLine(0, 172, x + 175, 172);
+	}
+	else{
+		do Screen.drawLine( x + 150, 172, x + 175, 172);
+	}
+	if(x + 0 < 0){
+		do Screen.drawLine(0, 173, x + 2, 173);
+	}
+	else{
+		do Screen.drawLine( x + 0, 173, x + 2, 173);
+	}
+	if(x + 19 < 0){
+		do Screen.drawLine(0, 173, x + 91, 173);
+	}
+	else{
+		do Screen.drawLine( x + 19, 173, x + 91, 173);
+	}
+	if(x + 151 < 0){
+		do Screen.drawLine(0, 173, x + 176, 173);
+	}
+	else{
+		do Screen.drawLine( x + 151, 173, x + 176, 173);
+	}
+	if(x + 0 < 0){
+		do Screen.drawRectangle(0, 174, x + 1, 175);
+	}
+	else{
+		do Screen.drawRectangle(x + 0, 174, x + 1, 175);
+	}
+	if(x + 17 < 0){
+		do Screen.drawRectangle(0, 174, x + 96, 175);
+	}
+	else{
+		do Screen.drawRectangle(x + 17, 174, x + 96, 175);
+	}
+	if(x + 152 < 0){
+		do Screen.drawRectangle(0, 174, x + 176, 175);
+	}
+	else{
+		do Screen.drawRectangle(x + 152, 174, x + 176, 175);
+	}
+	if(x + 16 < 0){
+		do Screen.drawLine(0, 176, x + 96, 176);
+	}
+	else{
+		do Screen.drawLine( x + 16, 176, x + 96, 176);
+	}
+	if(x + 155 < 0){
+		do Screen.drawLine(0, 176, x + 178, 176);
+	}
+	else{
+		do Screen.drawLine( x + 155, 176, x + 178, 176);
+	}
+	if(x + 14 < 0){
+		do Screen.drawRectangle(0, 177, x + 96, 178);
+	}
+	else{
+		do Screen.drawRectangle(x + 14, 177, x + 96, 178);
+	}
+	if(x + 156 < 0){
+		do Screen.drawRectangle(0, 177, x + 178, 178);
+	}
+	else{
+		do Screen.drawRectangle(x + 156, 177, x + 178, 178);
+	}
+	if(x + 0 < 0){
+		do Screen.drawRectangle(0, 179, x + 1, 180);
+	}
+	else{
+		do Screen.drawRectangle(x + 0, 179, x + 1, 180);
+	}
+	if(x + 14 < 0){
+		do Screen.drawLine(0, 179, x + 94, 179);
+	}
+	else{
+		do Screen.drawLine( x + 14, 179, x + 94, 179);
+	}
+	if(x + 141 < 0){
+		do Screen.drawLine(0, 179, x + 146, 179);
+	}
+	else{
+		do Screen.drawLine( x + 141, 179, x + 146, 179);
+	}
+	if(x + 159 < 0){
+		do Screen.drawLine(0, 179, x + 178, 179);
+	}
+	else{
+		do Screen.drawLine( x + 159, 179, x + 178, 179);
+	}
+	if(x + 13 < 0){
+		do Screen.drawLine(0, 180, x + 94, 180);
+	}
+	else{
+		do Screen.drawLine( x + 13, 180, x + 94, 180);
+	}
+	if(x + 140 < 0){
+		do Screen.drawLine(0, 180, x + 147, 180);
+	}
+	else{
+		do Screen.drawLine( x + 140, 180, x + 147, 180);
+	}
+	if(x + 161 < 0){
+		do Screen.drawLine(0, 180, x + 179, 180);
+	}
+	else{
+		do Screen.drawLine( x + 161, 180, x + 179, 180);
+	}
+	if(x + 0 < 0){
+		do Screen.drawRectangle(0, 181, x + 2, 182);
+	}
+	else{
+		do Screen.drawRectangle(x + 0, 181, x + 2, 182);
+	}
+	if(x + 13 < 0){
+		do Screen.drawRectangle(0, 181, x + 93, 183);
+	}
+	else{
+		do Screen.drawRectangle(x + 13, 181, x + 93, 183);
+	}
+	if(x + 141 < 0){
+		do Screen.drawRectangle(0, 181, x + 151, 182);
+	}
+	else{
+		do Screen.drawRectangle(x + 141, 181, x + 151, 182);
+	}
+	if(x + 162 < 0){
+		do Screen.drawRectangle(0, 181, x + 179, 182);
+	}
+	else{
+		do Screen.drawRectangle(x + 162, 181, x + 179, 182);
+	}
+	if(x + 0 < 0){
+		do Screen.drawRectangle(0, 183, x + 1, 186);
+	}
+	else{
+		do Screen.drawRectangle(x + 0, 183, x + 1, 186);
+	}
+	if(x + 141 < 0){
+		do Screen.drawLine(0, 183, x + 150, 183);
+	}
+	else{
+		do Screen.drawLine( x + 141, 183, x + 150, 183);
+	}
+	if(x + 163 < 0){
+		do Screen.drawLine(0, 183, x + 179, 183);
+	}
+	else{
+		do Screen.drawLine( x + 163, 183, x + 179, 183);
+	}
+	if(x + 13 < 0){
+		do Screen.drawRectangle(0, 184, x + 91, 185);
+	}
+	else{
+		do Screen.drawRectangle(x + 13, 184, x + 91, 185);
+	}
+	if(x + 140 < 0){
+		do Screen.drawRectangle(0, 184, x + 150, 185);
+	}
+	else{
+		do Screen.drawRectangle(x + 140, 184, x + 150, 185);
+	}
+	if(x + 165 < 0){
+		do Screen.drawRectangle(0, 184, x + 181, 187);
+	}
+	else{
+		do Screen.drawRectangle(x + 165, 184, x + 181, 187);
+	}
+	if(x + 13 < 0){
+		do Screen.drawRectangle(0, 186, x + 90, 187);
+	}
+	else{
+		do Screen.drawRectangle(x + 13, 186, x + 90, 187);
+	}
+	if(x + 140 < 0){
+		do Screen.drawLine(0, 186, x + 149, 186);
+	}
+	else{
+		do Screen.drawLine( x + 140, 186, x + 149, 186);
+	}
+	if(x + 102 < 0){
+		do Screen.drawLine(0, 187, x + 111, 187);
+	}
+	else{
+		do Screen.drawLine( x + 102, 187, x + 111, 187);
+	}
+	if(x + 140 < 0){
+		do Screen.drawLine(0, 187, x + 151, 187);
+	}
+	else{
+		do Screen.drawLine( x + 140, 187, x + 151, 187);
+	}
+	if(x + 17 < 0){
+		do Screen.drawRectangle(0, 188, x + 90, 189);
+	}
+	else{
+		do Screen.drawRectangle(x + 17, 188, x + 90, 189);
+	}
+	if(x + 99 < 0){
+		do Screen.drawRectangle(0, 188, x + 112, 189);
+	}
+	else{
+		do Screen.drawRectangle(x + 99, 188, x + 112, 189);
+	}
+	if(x + 140 < 0){
+		do Screen.drawRectangle(0, 188, x + 153, 190);
+	}
+	else{
+		do Screen.drawRectangle(x + 140, 188, x + 153, 190);
+	}
+	if(x + 166 < 0){
+		do Screen.drawRectangle(0, 188, x + 181, 189);
+	}
+	else{
+		do Screen.drawRectangle(x + 166, 188, x + 181, 189);
+	}
+	if(x + 18 < 0){
+		do Screen.drawRectangle(0, 190, x + 82, 191);
+	}
+	else{
+		do Screen.drawRectangle(x + 18, 190, x + 82, 191);
+	}
+	if(x + 98 < 0){
+		do Screen.drawLine(0, 190, x + 114, 190);
+	}
+	else{
+		do Screen.drawLine( x + 98, 190, x + 114, 190);
+	}
+	if(x + 131 < 0){
+		do Screen.drawLine(0, 190, x + 135, 190);
+	}
+	else{
+		do Screen.drawLine( x + 131, 190, x + 135, 190);
+	}
+	if(x + 168 < 0){
+		do Screen.drawLine(0, 190, x + 181, 190);
+	}
+	else{
+		do Screen.drawLine( x + 168, 190, x + 181, 190);
+	}
+	if(x + 3 < 0){
+		do Screen.drawLine(0, 191, x + 9, 191);
+	}
+	else{
+		do Screen.drawLine( x + 3, 191, x + 9, 191);
+	}
+	if(x + 98 < 0){
+		do Screen.drawLine(0, 191, x + 123, 191);
+	}
+	else{
+		do Screen.drawLine( x + 98, 191, x + 123, 191);
+	}
+	if(x + 129 < 0){
+		do Screen.drawLine(0, 191, x + 135, 191);
+	}
+	else{
+		do Screen.drawLine( x + 129, 191, x + 135, 191);
+	}
+	if(x + 141 < 0){
+		do Screen.drawLine(0, 191, x + 160, 191);
+	}
+	else{
+		do Screen.drawLine( x + 141, 191, x + 160, 191);
+	}
+	if(x + 168 < 0){
+		do Screen.drawLine(0, 191, x + 182, 191);
+	}
+	else{
+		do Screen.drawLine( x + 168, 191, x + 182, 191);
+	}
+	if(x + 6 < 0){
+		do Screen.drawRectangle(0, 192, x + 13, 193);
+	}
+	else{
+		do Screen.drawRectangle(x + 6, 192, x + 13, 193);
+	}
+	if(x + 17 < 0){
+		do Screen.drawRectangle(0, 192, x + 83, 193);
+	}
+	else{
+		do Screen.drawRectangle(x + 17, 192, x + 83, 193);
+	}
+	if(x + 98 < 0){
+		do Screen.drawRectangle(0, 192, x + 133, 193);
+	}
+	else{
+		do Screen.drawRectangle(x + 98, 192, x + 133, 193);
+	}
+	if(x + 140 < 0){
+		do Screen.drawRectangle(0, 192, x + 160, 193);
+	}
+	else{
+		do Screen.drawRectangle(x + 140, 192, x + 160, 193);
+	}
+	if(x + 169 < 0){
+		do Screen.drawRectangle(0, 192, x + 182, 193);
+	}
+	else{
+		do Screen.drawRectangle(x + 169, 192, x + 182, 193);
+	}
+	if(x + 6 < 0){
+		do Screen.drawRectangle(0, 194, x + 72, 196);
+	}
+	else{
+		do Screen.drawRectangle(x + 6, 194, x + 72, 196);
+	}
+	if(x + 98 < 0){
+		do Screen.drawLine(0, 194, x + 132, 194);
+	}
+	else{
+		do Screen.drawLine( x + 98, 194, x + 132, 194);
+	}
+	if(x + 140 < 0){
+		do Screen.drawLine(0, 194, x + 158, 194);
+	}
+	else{
+		do Screen.drawLine( x + 140, 194, x + 158, 194);
+	}
+	if(x + 170 < 0){
+		do Screen.drawRectangle(0, 194, x + 182, 196);
+	}
+	else{
+		do Screen.drawRectangle(x + 170, 194, x + 182, 196);
+	}
+	if(x + 99 < 0){
+		do Screen.drawRectangle(0, 195, x + 132, 196);
+	}
+	else{
+		do Screen.drawRectangle(x + 99, 195, x + 132, 196);
+	}
+	if(x + 137 < 0){
+		do Screen.drawRectangle(0, 195, x + 142, 196);
+	}
+	else{
+		do Screen.drawRectangle(x + 137, 195, x + 142, 196);
+	}
+	if(x + 147 < 0){
+		do Screen.drawRectangle(0, 195, x + 157, 196);
+	}
+	else{
+		do Screen.drawRectangle(x + 147, 195, x + 157, 196);
+	}
+	if(x + 6 < 0){
+		do Screen.drawLine(0, 197, x + 71, 197);
+	}
+	else{
+		do Screen.drawLine( x + 6, 197, x + 71, 197);
+	}
+	if(x + 101 < 0){
+		do Screen.drawLine(0, 197, x + 132, 197);
+	}
+	else{
+		do Screen.drawLine( x + 101, 197, x + 132, 197);
+	}
+	if(x + 136 < 0){
+		do Screen.drawLine(0, 197, x + 139, 197);
+	}
+	else{
+		do Screen.drawLine( x + 136, 197, x + 139, 197);
+	}
+	if(x + 172 < 0){
+		do Screen.drawRectangle(0, 197, x + 182, 198);
+	}
+	else{
+		do Screen.drawRectangle(x + 172, 197, x + 182, 198);
+	}
+	if(x + 7 < 0){
+		do Screen.drawLine(0, 198, x + 71, 198);
+	}
+	else{
+		do Screen.drawLine( x + 7, 198, x + 71, 198);
+	}
+	if(x + 102 < 0){
+		do Screen.drawLine(0, 198, x + 137, 198);
+	}
+	else{
+		do Screen.drawLine( x + 102, 198, x + 137, 198);
+	}
+	if(x + 9 < 0){
+		do Screen.drawRectangle(0, 199, x + 11, 200);
+	}
+	else{
+		do Screen.drawRectangle(x + 9, 199, x + 11, 200);
+	}
+	if(x + 16 < 0){
+		do Screen.drawRectangle(0, 199, x + 71, 200);
+	}
+	else{
+		do Screen.drawRectangle(x + 16, 199, x + 71, 200);
+	}
+	if(x + 105 < 0){
+		do Screen.drawRectangle(0, 199, x + 137, 200);
+	}
+	else{
+		do Screen.drawRectangle(x + 105, 199, x + 137, 200);
+	}
+	if(x + 172 < 0){
+		do Screen.drawRectangle(0, 199, x + 183, 200);
+	}
+	else{
+		do Screen.drawRectangle(x + 172, 199, x + 183, 200);
+	}
+	if(x + 23 < 0){
+		do Screen.drawLine(0, 201, x + 71, 201);
+	}
+	else{
+		do Screen.drawLine( x + 23, 201, x + 71, 201);
+	}
+	if(x + 104 < 0){
+		do Screen.drawLine(0, 201, x + 140, 201);
+	}
+	else{
+		do Screen.drawLine( x + 104, 201, x + 140, 201);
+	}
+	if(x + 173 < 0){
+		do Screen.drawLine(0, 201, x + 183, 201);
+	}
+	else{
+		do Screen.drawLine( x + 173, 201, x + 183, 201);
+	}
+	if(x + 24 < 0){
+		do Screen.drawRectangle(0, 202, x + 71, 203);
+	}
+	else{
+		do Screen.drawRectangle(x + 24, 202, x + 71, 203);
+	}
+	if(x + 106 < 0){
+		do Screen.drawRectangle(0, 202, x + 140, 204);
+	}
+	else{
+		do Screen.drawRectangle(x + 106, 202, x + 140, 204);
+	}
+	if(x + 175 < 0){
+		do Screen.drawRectangle(0, 202, x + 183, 203);
+	}
+	else{
+		do Screen.drawRectangle(x + 175, 202, x + 183, 203);
+	}
+	if(x + 25 < 0){
+		do Screen.drawRectangle(0, 204, x + 71, 205);
+	}
+	else{
+		do Screen.drawRectangle(x + 25, 204, x + 71, 205);
+	}
+	if(x + 173 < 0){
+		do Screen.drawRectangle(0, 204, x + 183, 207);
+	}
+	else{
+		do Screen.drawRectangle(x + 173, 204, x + 183, 207);
+	}
+	if(x + 111 < 0){
+		do Screen.drawLine(0, 205, x + 142, 205);
+	}
+	else{
+		do Screen.drawLine( x + 111, 205, x + 142, 205);
+	}
+	if(x + 24 < 0){
+		do Screen.drawRectangle(0, 206, x + 71, 208);
+	}
+	else{
+		do Screen.drawRectangle(x + 24, 206, x + 71, 208);
+	}
+	if(x + 111 < 0){
+		do Screen.drawRectangle(0, 206, x + 143, 207);
+	}
+	else{
+		do Screen.drawRectangle(x + 111, 206, x + 143, 207);
+	}
+	if(x + 112 < 0){
+		do Screen.drawLine(0, 208, x + 143, 208);
+	}
+	else{
+		do Screen.drawLine( x + 112, 208, x + 143, 208);
+	}
+	if(x + 175 < 0){
+		do Screen.drawLine(0, 208, x + 182, 208);
+	}
+	else{
+		do Screen.drawLine( x + 175, 208, x + 182, 208);
+	}
+	if(x + 24 < 0){
+		do Screen.drawRectangle(0, 209, x + 72, 210);
+	}
+	else{
+		do Screen.drawRectangle(x + 24, 209, x + 72, 210);
+	}
+	if(x + 116 < 0){
+		do Screen.drawRectangle(0, 209, x + 144, 210);
+	}
+	else{
+		do Screen.drawRectangle(x + 116, 209, x + 144, 210);
+	}
+	if(x + 175 < 0){
+		do Screen.drawRectangle(0, 209, x + 183, 210);
+	}
+	else{
+		do Screen.drawRectangle(x + 175, 209, x + 183, 210);
+	}
+	if(x + 24 < 0){
+		do Screen.drawLine(0, 211, x + 32, 211);
+	}
+	else{
+		do Screen.drawLine( x + 24, 211, x + 32, 211);
+	}
+	if(x + 37 < 0){
+		do Screen.drawRectangle(0, 211, x + 76, 212);
+	}
+	else{
+		do Screen.drawRectangle(x + 37, 211, x + 76, 212);
+	}
+	if(x + 117 < 0){
+		do Screen.drawRectangle(0, 211, x + 143, 212);
+	}
+	else{
+		do Screen.drawRectangle(x + 117, 211, x + 143, 212);
+	}
+	if(x + 176 < 0){
+		do Screen.drawLine(0, 211, x + 183, 211);
+	}
+	else{
+		do Screen.drawLine( x + 176, 211, x + 183, 211);
+	}
+	if(x + 176 < 0){
+		do Screen.drawRectangle(0, 212, x + 182, 215);
+	}
+	else{
+		do Screen.drawRectangle(x + 176, 212, x + 182, 215);
+	}
+	if(x + 38 < 0){
+		do Screen.drawRectangle(0, 213, x + 76, 214);
+	}
+	else{
+		do Screen.drawRectangle(x + 38, 213, x + 76, 214);
+	}
+	if(x + 119 < 0){
+		do Screen.drawRectangle(0, 213, x + 143, 214);
+	}
+	else{
+		do Screen.drawRectangle(x + 119, 213, x + 143, 214);
+	}
+	if(x + 37 < 0){
+		do Screen.drawRectangle(0, 215, x + 76, 218);
+	}
+	else{
+		do Screen.drawRectangle(x + 37, 215, x + 76, 218);
+	}
+	if(x + 120 < 0){
+		do Screen.drawLine(0, 215, x + 144, 215);
+	}
+	else{
+		do Screen.drawLine( x + 120, 215, x + 144, 215);
+	}
+	if(x + 122 < 0){
+		do Screen.drawRectangle(0, 216, x + 144, 217);
+	}
+	else{
+		do Screen.drawRectangle(x + 122, 216, x + 144, 217);
+	}
+	if(x + 176 < 0){
+		do Screen.drawRectangle(0, 216, x + 183, 222);
+	}
+	else{
+		do Screen.drawRectangle(x + 176, 216, x + 183, 222);
+	}
+	if(x + 3 < 0){
+		do Screen.drawLine(0, 218, x + 6, 218);
+	}
+	else{
+		do Screen.drawLine( x + 3, 218, x + 6, 218);
+	}
+	if(x + 120 < 0){
+		do Screen.drawLine(0, 218, x + 143, 218);
+	}
+	else{
+		do Screen.drawLine( x + 120, 218, x + 143, 218);
+	}
+	if(x + 3 < 0){
+		do Screen.drawRectangle(0, 219, x + 9, 221);
+	}
+	else{
+		do Screen.drawRectangle(x + 3, 219, x + 9, 221);
+	}
+	if(x + 38 < 0){
+		do Screen.drawLine(0, 219, x + 76, 219);
+	}
+	else{
+		do Screen.drawLine( x + 38, 219, x + 76, 219);
+	}
+	if(x + 122 < 0){
+		do Screen.drawLine(0, 219, x + 142, 219);
+	}
+	else{
+		do Screen.drawLine( x + 122, 219, x + 142, 219);
+	}
+	if(x + 41 < 0){
+		do Screen.drawRectangle(0, 220, x + 79, 222);
+	}
+	else{
+		do Screen.drawRectangle(x + 41, 220, x + 79, 222);
+	}
+	if(x + 123 < 0){
+		do Screen.drawRectangle(0, 220, x + 143, 222);
+	}
+	else{
+		do Screen.drawRectangle(x + 123, 220, x + 143, 222);
+	}
+	if(x + 0 < 0){
+		do Screen.drawRectangle(0, 222, x + 8, 225);
+	}
+	else{
+		do Screen.drawRectangle(x + 0, 222, x + 8, 225);
+	}
+	if(x + 42 < 0){
+		do Screen.drawLine(0, 223, x + 82, 223);
+	}
+	else{
+		do Screen.drawLine( x + 42, 223, x + 82, 223);
+	}
+	if(x + 126 < 0){
+		do Screen.drawLine(0, 223, x + 147, 223);
+	}
+	else{
+		do Screen.drawLine( x + 126, 223, x + 147, 223);
+	}
+	if(x + 175 < 0){
+		do Screen.drawRectangle(0, 223, x + 183, 228);
+	}
+	else{
+		do Screen.drawRectangle(x + 175, 223, x + 183, 228);
+	}
+	if(x + 44 < 0){
+		do Screen.drawRectangle(0, 224, x + 82, 225);
+	}
+	else{
+		do Screen.drawRectangle(x + 44, 224, x + 82, 225);
+	}
+	if(x + 126 < 0){
+		do Screen.drawLine(0, 224, x + 146, 224);
+	}
+	else{
+		do Screen.drawLine( x + 126, 224, x + 146, 224);
+	}
+	if(x + 126 < 0){
+		do Screen.drawLine(0, 225, x + 147, 225);
+	}
+	else{
+		do Screen.drawLine( x + 126, 225, x + 147, 225);
+	}
+	if(x + 0 < 0){
+		do Screen.drawLine(0, 226, x + 9, 226);
+	}
+	else{
+		do Screen.drawLine( x + 0, 226, x + 9, 226);
+	}
+	if(x + 45 < 0){
+		do Screen.drawLine(0, 226, x + 84, 226);
+	}
+	else{
+		do Screen.drawLine( x + 45, 226, x + 84, 226);
+	}
+	if(x + 126 < 0){
+		do Screen.drawLine(0, 226, x + 150, 226);
+	}
+	else{
+		do Screen.drawLine( x + 126, 226, x + 150, 226);
+	}
+	if(x + 0 < 0){
+		do Screen.drawRectangle(0, 227, x + 8, 228);
+	}
+	else{
+		do Screen.drawRectangle(x + 0, 227, x + 8, 228);
+	}
+	if(x + 46 < 0){
+		do Screen.drawRectangle(0, 227, x + 84, 228);
+	}
+	else{
+		do Screen.drawRectangle(x + 46, 227, x + 84, 228);
+	}
+	if(x + 126 < 0){
+		do Screen.drawRectangle(0, 227, x + 151, 228);
+	}
+	else{
+		do Screen.drawRectangle(x + 126, 227, x + 151, 228);
+	}
+	if(x + 0 < 0){
+		do Screen.drawRectangle(0, 229, x + 9, 232);
+	}
+	else{
+		do Screen.drawRectangle(x + 0, 229, x + 9, 232);
+	}
+	if(x + 46 < 0){
+		do Screen.drawRectangle(0, 229, x + 83, 230);
+	}
+	else{
+		do Screen.drawRectangle(x + 46, 229, x + 83, 230);
+	}
+	if(x + 126 < 0){
+		do Screen.drawLine(0, 229, x + 153, 229);
+	}
+	else{
+		do Screen.drawLine( x + 126, 229, x + 153, 229);
+	}
+	if(x + 173 < 0){
+		do Screen.drawRectangle(0, 229, x + 182, 230);
+	}
+	else{
+		do Screen.drawRectangle(x + 173, 229, x + 182, 230);
+	}
+	if(x + 127 < 0){
+		do Screen.drawLine(0, 230, x + 137, 230);
+	}
+	else{
+		do Screen.drawLine( x + 127, 230, x + 137, 230);
+	}
+	if(x + 145 < 0){
+		do Screen.drawLine(0, 230, x + 153, 230);
+	}
+	else{
+		do Screen.drawLine( x + 145, 230, x + 153, 230);
+	}
+	if(x + 49 < 0){
+		do Screen.drawRectangle(0, 231, x + 83, 232);
+	}
+	else{
+		do Screen.drawRectangle(x + 49, 231, x + 83, 232);
+	}
+	if(x + 92 < 0){
+		do Screen.drawRectangle(0, 231, x + 94, 232);
+	}
+	else{
+		do Screen.drawRectangle(x + 92, 231, x + 94, 232);
+	}
+	if(x + 106 < 0){
+		do Screen.drawRectangle(0, 231, x + 110, 232);
+	}
+	else{
+		do Screen.drawRectangle(x + 106, 231, x + 110, 232);
+	}
+	if(x + 129 < 0){
+		do Screen.drawRectangle(0, 231, x + 135, 232);
+	}
+	else{
+		do Screen.drawRectangle(x + 129, 231, x + 135, 232);
+	}
+	if(x + 144 < 0){
+		do Screen.drawRectangle(0, 231, x + 153, 232);
+	}
+	else{
+		do Screen.drawRectangle(x + 144, 231, x + 153, 232);
+	}
+	if(x + 172 < 0){
+		do Screen.drawRectangle(0, 231, x + 182, 233);
+	}
+	else{
+		do Screen.drawRectangle(x + 172, 231, x + 182, 233);
+	}
+	if(x + 0 < 0){
+		do Screen.drawRectangle(0, 233, x + 8, 237);
+	}
+	else{
+		do Screen.drawRectangle(x + 0, 233, x + 8, 237);
+	}
+	if(x + 51 < 0){
+		do Screen.drawLine(0, 233, x + 82, 233);
+	}
+	else{
+		do Screen.drawLine( x + 51, 233, x + 82, 233);
+	}
+	if(x + 92 < 0){
+		do Screen.drawLine(0, 233, x + 97, 233);
+	}
+	else{
+		do Screen.drawLine( x + 92, 233, x + 97, 233);
+	}
+	if(x + 101 < 0){
+		do Screen.drawLine(0, 233, x + 110, 233);
+	}
+	else{
+		do Screen.drawLine( x + 101, 233, x + 110, 233);
+	}
+	if(x + 130 < 0){
+		do Screen.drawLine(0, 233, x + 135, 233);
+	}
+	else{
+		do Screen.drawLine( x + 130, 233, x + 135, 233);
+	}
+	if(x + 141 < 0){
+		do Screen.drawLine(0, 233, x + 154, 233);
+	}
+	else{
+		do Screen.drawLine( x + 141, 233, x + 154, 233);
+	}
+	if(x + 52 < 0){
+		do Screen.drawRectangle(0, 234, x + 80, 235);
+	}
+	else{
+		do Screen.drawRectangle(x + 52, 234, x + 80, 235);
+	}
+	if(x + 94 < 0){
+		do Screen.drawRectangle(0, 234, x + 97, 237);
+	}
+	else{
+		do Screen.drawRectangle(x + 94, 234, x + 97, 237);
+	}
+	if(x + 102 < 0){
+		do Screen.drawRectangle(0, 234, x + 110, 235);
+	}
+	else{
+		do Screen.drawRectangle(x + 102, 234, x + 110, 235);
+	}
+	if(x + 140 < 0){
+		do Screen.drawRectangle(0, 234, x + 153, 235);
+	}
+	else{
+		do Screen.drawRectangle(x + 140, 234, x + 153, 235);
+	}
+	if(x + 170 < 0){
+		do Screen.drawRectangle(0, 234, x + 182, 235);
+	}
+	else{
+		do Screen.drawRectangle(x + 170, 234, x + 182, 235);
+	}
+	if(x + 52 < 0){
+		do Screen.drawLine(0, 236, x + 82, 236);
+	}
+	else{
+		do Screen.drawLine( x + 52, 236, x + 82, 236);
+	}
+	if(x + 104 < 0){
+		do Screen.drawLine(0, 236, x + 110, 236);
+	}
+	else{
+		do Screen.drawLine( x + 104, 236, x + 110, 236);
+	}
+	if(x + 137 < 0){
+		do Screen.drawLine(0, 236, x + 151, 236);
+	}
+	else{
+		do Screen.drawLine( x + 137, 236, x + 151, 236);
+	}
+	if(x + 168 < 0){
+		do Screen.drawLine(0, 236, x + 182, 236);
+	}
+	else{
+		do Screen.drawLine( x + 168, 236, x + 182, 236);
+	}
+	if(x + 53 < 0){
+		do Screen.drawLine(0, 237, x + 79, 237);
+	}
+	else{
+		do Screen.drawLine( x + 53, 237, x + 79, 237);
+	}
+	if(x + 107 < 0){
+		do Screen.drawLine(0, 237, x + 115, 237);
+	}
+	else{
+		do Screen.drawLine( x + 107, 237, x + 115, 237);
+	}
+	if(x + 136 < 0){
+		do Screen.drawLine(0, 237, x + 147, 237);
+	}
+	else{
+		do Screen.drawLine( x + 136, 237, x + 147, 237);
+	}
+	if(x + 166 < 0){
+		do Screen.drawRectangle(0, 237, x + 181, 239);
+	}
+	else{
+		do Screen.drawRectangle(x + 166, 237, x + 181, 239);
+	}
+	if(x + 0 < 0){
+		do Screen.drawRectangle(0, 238, x + 9, 242);
+	}
+	else{
+		do Screen.drawRectangle(x + 0, 238, x + 9, 242);
+	}
+	if(x + 55 < 0){
+		do Screen.drawRectangle(0, 238, x + 77, 239);
+	}
+	else{
+		do Screen.drawRectangle(x + 55, 238, x + 77, 239);
+	}
+	if(x + 91 < 0){
+		do Screen.drawRectangle(0, 238, x + 97, 239);
+	}
+	else{
+		do Screen.drawRectangle(x + 91, 238, x + 97, 239);
+	}
+	if(x + 110 < 0){
+		do Screen.drawRectangle(0, 238, x + 116, 239);
+	}
+	else{
+		do Screen.drawRectangle(x + 110, 238, x + 116, 239);
+	}
+	if(x + 137 < 0){
+		do Screen.drawRectangle(0, 238, x + 147, 239);
+	}
+	else{
+		do Screen.drawRectangle(x + 137, 238, x + 147, 239);
+	}
+	if(x + 58 < 0){
+		do Screen.drawRectangle(0, 240, x + 77, 242);
+	}
+	else{
+		do Screen.drawRectangle(x + 58, 240, x + 77, 242);
+	}
+	if(x + 91 < 0){
+		do Screen.drawLine(0, 240, x + 96, 240);
+	}
+	else{
+		do Screen.drawLine( x + 91, 240, x + 96, 240);
+	}
+	if(x + 110 < 0){
+		do Screen.drawLine(0, 240, x + 118, 240);
+	}
+	else{
+		do Screen.drawLine( x + 110, 240, x + 118, 240);
+	}
+	if(x + 137 < 0){
+		do Screen.drawRectangle(0, 240, x + 144, 242);
+	}
+	else{
+		do Screen.drawRectangle(x + 137, 240, x + 144, 242);
+	}
+	if(x + 165 < 0){
+		do Screen.drawLine(0, 240, x + 181, 240);
+	}
+	else{
+		do Screen.drawLine( x + 165, 240, x + 181, 240);
+	}
+	if(x + 115 < 0){
+		do Screen.drawRectangle(0, 241, x + 118, 242);
+	}
+	else{
+		do Screen.drawRectangle(x + 115, 241, x + 118, 242);
+	}
+	if(x + 163 < 0){
+		do Screen.drawRectangle(0, 241, x + 181, 242);
+	}
+	else{
+		do Screen.drawRectangle(x + 163, 241, x + 181, 242);
+	}
+	if(x + 0 < 0){
+		do Screen.drawRectangle(0, 243, x + 6, 244);
+	}
+	else{
+		do Screen.drawRectangle(x + 0, 243, x + 6, 244);
+	}
+	if(x + 59 < 0){
+		do Screen.drawLine(0, 243, x + 77, 243);
+	}
+	else{
+		do Screen.drawLine( x + 59, 243, x + 77, 243);
+	}
+	if(x + 138 < 0){
+		do Screen.drawLine(0, 243, x + 142, 243);
+	}
+	else{
+		do Screen.drawLine( x + 138, 243, x + 142, 243);
+	}
+	if(x + 162 < 0){
+		do Screen.drawLine(0, 243, x + 181, 243);
+	}
+	else{
+		do Screen.drawLine( x + 162, 243, x + 181, 243);
+	}
+	if(x + 60 < 0){
+		do Screen.drawLine(0, 244, x + 76, 244);
+	}
+	else{
+		do Screen.drawLine( x + 60, 244, x + 76, 244);
+	}
+	if(x + 106 < 0){
+		do Screen.drawLine(0, 244, x + 107, 244);
+	}
+	else{
+		do Screen.drawLine( x + 106, 244, x + 107, 244);
+	}
+	if(x + 161 < 0){
+		do Screen.drawRectangle(0, 244, x + 179, 246);
+	}
+	else{
+		do Screen.drawRectangle(x + 161, 244, x + 179, 246);
+	}
+	if(x + 0 < 0){
+		do Screen.drawRectangle(0, 245, x + 8, 246);
+	}
+	else{
+		do Screen.drawRectangle(x + 0, 245, x + 8, 246);
+	}
+	if(x + 63 < 0){
+		do Screen.drawRectangle(0, 245, x + 76, 246);
+	}
+	else{
+		do Screen.drawRectangle(x + 63, 245, x + 76, 246);
+	}
+	if(x + 102 < 0){
+		do Screen.drawRectangle(0, 245, x + 108, 246);
+	}
+	else{
+		do Screen.drawRectangle(x + 102, 245, x + 108, 246);
+	}
+	if(x + 0 < 0){
+		do Screen.drawLine(0, 247, x + 6, 247);
+	}
+	else{
+		do Screen.drawLine( x + 0, 247, x + 6, 247);
+	}
+	if(x + 65 < 0){
+		do Screen.drawLine(0, 247, x + 76, 247);
+	}
+	else{
+		do Screen.drawLine( x + 65, 247, x + 76, 247);
+	}
+	if(x + 97 < 0){
+		do Screen.drawLine(0, 247, x + 111, 247);
+	}
+	else{
+		do Screen.drawLine( x + 97, 247, x + 111, 247);
+	}
+	if(x + 159 < 0){
+		do Screen.drawLine(0, 247, x + 179, 247);
+	}
+	else{
+		do Screen.drawLine( x + 159, 247, x + 179, 247);
+	}
+	if(x + 0 < 0){
+		do Screen.drawRectangle(0, 248, x + 1, 249);
+	}
+	else{
+		do Screen.drawRectangle(x + 0, 248, x + 1, 249);
+	}
+	if(x + 66 < 0){
+		do Screen.drawRectangle(0, 248, x + 75, 249);
+	}
+	else{
+		do Screen.drawRectangle(x + 66, 248, x + 75, 249);
+	}
+	if(x + 98 < 0){
+		do Screen.drawRectangle(0, 248, x + 111, 249);
+	}
+	else{
+		do Screen.drawRectangle(x + 98, 248, x + 111, 249);
+	}
+	if(x + 159 < 0){
+		do Screen.drawRectangle(0, 248, x + 178, 249);
+	}
+	else{
+		do Screen.drawRectangle(x + 159, 248, x + 178, 249);
+	}
+	if(x + 67 < 0){
+		do Screen.drawRectangle(0, 250, x + 75, 251);
+	}
+	else{
+		do Screen.drawRectangle(x + 67, 250, x + 75, 251);
+	}
+	if(x + 85 < 0){
+		do Screen.drawRectangle(0, 250, x + 90, 251);
+	}
+	else{
+		do Screen.drawRectangle(x + 85, 250, x + 90, 251);
+	}
+	if(x + 98 < 0){
+		do Screen.drawLine(0, 250, x + 110, 250);
+	}
+	else{
+		do Screen.drawLine( x + 98, 250, x + 110, 250);
+	}
+	if(x + 158 < 0){
+		do Screen.drawRectangle(0, 250, x + 178, 253);
+	}
+	else{
+		do Screen.drawRectangle(x + 158, 250, x + 178, 253);
+	}
+	if(x + 97 < 0){
+		do Screen.drawLine(0, 251, x + 116, 251);
+	}
+	else{
+		do Screen.drawLine( x + 97, 251, x + 116, 251);
+	}
+	if(x + 67 < 0){
+		do Screen.drawRectangle(0, 252, x + 73, 253);
+	}
+	else{
+		do Screen.drawRectangle(x + 67, 252, x + 73, 253);
+	}
+	if(x + 80 < 0){
+		do Screen.drawRectangle(0, 252, x + 118, 253);
+	}
+	else{
+		do Screen.drawRectangle(x + 80, 252, x + 118, 253);
+	}
+	if(x + 69 < 0){
+		do Screen.drawLine(0, 254, x + 119, 254);
+	}
+	else{
+		do Screen.drawLine( x + 69, 254, x + 119, 254);
+	}
+	if(x + 156 < 0){
+		do Screen.drawRectangle(0, 254, x + 176, 255);
+	}
+	else{
+		do Screen.drawRectangle(x + 156, 254, x + 176, 255);
+	}
+	if(x + 72 < 0){
+		do Screen.drawLine(0, 255, x + 119, 255);
+	}
+	else{
+		do Screen.drawLine( x + 72, 255, x + 119, 255);
+	}
+		return;
+	}
+}
